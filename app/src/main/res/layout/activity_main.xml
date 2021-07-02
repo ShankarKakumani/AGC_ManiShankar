@@ -60,29 +60,51 @@
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/register"
-                android:layout_width="123dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 app:cardBackgroundColor="@color/tomato"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="0dp">
 
-                <TextView
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginBottom="3dp"
-                    android:fontFamily="@font/barlow_condensed_extra_light"
-                    android:text="@string/register"
-                    android:textColor="@color/white"
-                    android:textSize="32sp"
-                    android:textStyle="bold" />
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:contentDescription="@string/arrow_right"
+                        android:src="@drawable/ic_right_arrow" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginBottom="3dp"
+                        android:fontFamily="@font/barlow_condensed_extra_light"
+                        android:gravity="center"
+                        android:text="@string/register"
+                        android:textColor="@color/white"
+                        android:textSize="32sp"
+                        android:textStyle="bold"
+                        app:lineHeight="28dp" />
+
+                </LinearLayout>
+
             </androidx.cardview.widget.CardView>
 
-            <TextView
+            <com.google.android.material.textview.MaterialTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="4.5dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginBottom="3dp"
                 android:fontFamily="@font/barlow_condensed_extra_light"
                 android:text="@string/me_as_a_collector"
                 android:textColor="@color/black"
@@ -96,14 +118,26 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="33dp"
             android:gravity="center"
+            android:orientation="horizontal"
             app:layout_constraintTop_toBottomOf="@+id/ll_register">
 
-            <TextView
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="13dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="11dp"
+                android:contentDescription="@string/arrow_right"
+                android:src="@drawable/ic_right_arrow"
+                app:tint="@color/cornflowerBlue" />
+
+            <com.google.android.material.textview.MaterialTextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/track_my_application"
                 android:textColor="@color/cornflowerBlue"
-                android:textSize="24sp" />
+                android:textSize="24sp"
+                app:lineHeight="28dp" />
         </LinearLayout>
 
 
@@ -126,14 +160,14 @@
                 android:layout_width="33dp"
                 android:layout_height="33dp"
                 android:layout_marginEnd="10dp"
-                android:src="@drawable/ic_facebook"
-                android:contentDescription="@string/facebook_desc"/>
+                android:contentDescription="@string/facebook_desc"
+                android:src="@drawable/ic_facebook" />
 
             <ImageView
                 android:layout_width="33dp"
                 android:layout_height="33dp"
-                android:src="@drawable/ic_instagram"
-                android:contentDescription="@string/instagram_desc"/>
+                android:contentDescription="@string/instagram_desc"
+                android:src="@drawable/ic_instagram" />
         </LinearLayout>
 
         <View

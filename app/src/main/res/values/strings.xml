@@ -55,6 +55,7 @@
     <string name="likes_count">120</string>
     <string name="shares_count">2.3K</string>
     <string name="forward_count">43K</string>
+    <string name="arrow_right">arrow Right</string>
 
 
 </resources>
