@@ -11,8 +11,7 @@
         android:theme="@style/Theme.BinaryVeda">
 
         <activity android:name=".activity.ProfileActivity"
-            android:configChanges="screenLayout|orientation|screenSize"
-            android:screenOrientation="portrait"/>
+            android:configChanges="screenLayout|orientation|screenSize"/>
 
         <activity android:name=".activity.MainActivity">
             <intent-filter>
