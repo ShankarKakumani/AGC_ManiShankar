@@ -5,3 +5,8 @@ data class FeatureModel(
     var titleOne: String,
     var titleTwo: String
 )
+
+data class GalleryImages(
+    var imageOne : Int,
+    var imageTwo : Int
+)

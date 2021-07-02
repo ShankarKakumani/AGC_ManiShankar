@@ -13,6 +13,7 @@
 
 
     <string name="art_gallery_desc">Art gallery Center Logo</string>
+    <string name="gallery_image">Gallery Image</string>
     <string name="group_img_desc">Group Image</string>
     <string name="register">register</string>
     <string name="me_as_a_collector">me as a collector</string>

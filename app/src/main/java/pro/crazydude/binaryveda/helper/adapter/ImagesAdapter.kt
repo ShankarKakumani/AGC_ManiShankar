@@ -5,11 +5,10 @@ import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import pro.crazydude.binaryveda.R
-import pro.crazydude.binaryveda.databinding.ItemFeatureBinding
 import pro.crazydude.binaryveda.databinding.ItemImageGalleryBinding
-import pro.crazydude.binaryveda.helper.model.FeatureModel
+import pro.crazydude.binaryveda.helper.model.GalleryImages
 
-class ImagesAdapter(private var imagesList: ArrayList<Int>) :
+class ImagesAdapter(private var imagesList: ArrayList<GalleryImages>) :
     RecyclerView.Adapter<ImagesAdapter.ViewHolder>() {
 
 
@@ -32,7 +31,7 @@ class ImagesAdapter(private var imagesList: ArrayList<Int>) :
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.binding.imageView.setImageResource(imagesList[position])
+        holder.binding.model = imagesList[position]
     }
 
     override fun getItemCount(): Int {
