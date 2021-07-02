@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="model"
+            type="pro.crazydude.binaryveda.helper.model.FeatureModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/feature_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68.4dp"
+            android:paddingStart="40dp"
+            android:paddingEnd="40dp"
+            app:drawableResource="@{model.imageResource}"
+            android:contentDescription="@string/feature_image_desc"
+            tools:src="@drawable/ic_feature_one"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/title_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="29.8dp"
+            android:fontFamily="@font/barlow_condensed_light"
+            android:lines="2"
+            android:text="@{model.titleOne}"
+            tools:text="@string/lorem_ipsum_is_used"
+            android:textColor="@color/black"
+            android:textSize="28sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/feature_img" />
+
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="29dp"
+            android:fontFamily="@font/barlow_extra_light"
+            app:lineHeight="24dp"
+            android:text="@{model.titleTwo}"
+            tools:text="@string/lorem_ullamco"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@+id/title_one" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
+

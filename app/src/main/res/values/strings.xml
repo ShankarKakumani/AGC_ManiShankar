@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BinaryVeda</string>
+
+    <string name="lorem_ipsum_short">Lorem ipsum dolor sit amet, consectetur adipiscing elit</string>
+    <string name="lorem_ipsum_is_used">
+        lorem ipsum
+        \nis used
+    </string>
+    <string name="lorem_ullamco">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</string>
+    <string name="lorem_consequat">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="lorem_pariatur">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+
+
+    <string name="art_gallery_desc">Art gallery Center Logo</string>
+    <string name="group_img_desc">Group Image</string>
+    <string name="register">register</string>
+    <string name="me_as_a_collector">me as a collector</string>
+    <string name="track_my_application">track my application</string>
+    <string name="feature_image_desc">Feature Image</string>
+
+    <string name="about_us">
+        About Us.
+        \nTeam.
+        \nReach us.
+    </string>
+
+    <string name="affiliations">
+        Affiliations.
+        \nDisclaimers.
+        \nPrivacy Policy.
+    </string>
+
+    <string name="copyright_reserved"> Content Copyright reserved.</string>
+    <string name="facebook_desc">Image - Facebook</string>
+    <string name="instagram_desc">Image - Instagram</string>
+    <string name="color_palette">Color palette</string>
+    <string name="person_desc">Person Image</string>
+    <string name="plus_desc">Plus Image</string>
+    <string name="menu_desc">Menu Image</string>
+    <string name="upload">Upload</string>
+    <string name="edit">Edit</string>
+    <string name="john_doe">john.doe</string>
+    <string name="my_dashboard">My dashboard</string>
+
+
+</resources>
