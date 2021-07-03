@@ -37,14 +37,20 @@ class ProfileActivity : AppCompatActivity() {
 
     private fun initViews() {
         recyclerView = binding.imagesRecycler
+
+        /*
+        I tried GridLayoutManager and passed spanCount to 2, but got some issue with,
+        the margin between the images, size, scale and when rotated to landScape.
+        so created a LinearLayout and gave weight equal for both image. There might be some other way,
+        but, its the best i could do. I tried to satisfy "WYSIWYG"...
+        */
+
         recyclerView.layoutManager =
             LinearLayoutManager(
                 this,
                 LinearLayoutManager.VERTICAL,
                 false
             )
-
-
         adapter = ImagesAdapter(imagesList)
         recyclerView.adapter = adapter
 
