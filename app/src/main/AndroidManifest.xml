@@ -4,16 +4,17 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/agc"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/agc"
         android:supportsRtl="true"
         android:theme="@style/Theme.BinaryVeda">
 
         <activity android:name=".activity.ProfileActivity"
             android:configChanges="screenLayout|orientation|screenSize"/>
 
-        <activity android:name=".activity.MainActivity">
+        <activity android:name=".activity.MainActivity"
+            android:configChanges="screenLayout|orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
