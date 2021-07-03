@@ -389,15 +389,18 @@
                     android:scaleType="fitXY"
                     android:layout_marginStart="17.8dp"
                     android:layout_marginEnd="17.2dp"
-                    android:src="@drawable/color_rectangle"/>
+                    android:src="@drawable/color_palette"/>
 
-                <TextView
+                <com.google.android.material.textview.MaterialTextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="@color/white"
                     android:text="@string/palette"
                     android:layout_centerVertical="true"
                     android:layout_marginStart="27dp"
+                    android:textSize="14sp"
+                    app:lineHeight="24dp"
+                    android:fontFamily="@font/barlow_condensed_medium"
                     />
 
             </RelativeLayout>
