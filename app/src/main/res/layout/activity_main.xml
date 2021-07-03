@@ -30,15 +30,17 @@
             android:contentDescription="@string/group_img_desc"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_group"
+            android:layout_marginTop="7dp"
             app:layout_constraintTop_toBottomOf="@+id/img_logo" />
 
-        <TextView
+        <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tv1"
             android:layout_width="0dp"
             android:layout_height="79dp"
-            android:layout_marginStart="30dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginEnd="30dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="33dp"
+            android:layout_marginEnd="50dp"
+            app:lineHeight="24dp"
             android:fontFamily="@font/barlow_extra_light"
             android:gravity="center|top"
             android:text="@string/lorem_ipsum_short"
